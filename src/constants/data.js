@@ -20,19 +20,19 @@ export const PLACES = [
 	{
 		id: 3,
 		category: "lagos",
-		title: "Lago Nahuel Huapi",
+		title: "Nahuel Huapi",
 		location: "San Carlos de Bariloche, Villa La Angostura",
 		description:
-			"El lago Nahuel Huapi es un lago de origen glaciar de la Patagonia Argentina. Es compartido por las provincias argentinas del Neuquén (80%) y de Río Negro (20%), y rodeado mayormente por el parque nacional homónimo.Posee una superficie de 557 km² y se sitúa a una altitud de 764 m s. n. m. Se destaca por su profundidad (464 m de profundidad máxima) y sus ocho ramificaciones o brazos",
+			"Es un lago de origen glaciar de la Patagonia Argentina. Es compartido por las provincias argentinas del Neuquén (80%) y de Río Negro (20%), y rodeado mayormente por el parque nacional homónimo.Posee una superficie de 557 km² y se sitúa a una altitud de 764 m s. n. m. Se destaca por su profundidad (464 m de profundidad máxima) y sus ocho ramificaciones o brazos",
 		img: "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/89/8e.jpg",
 	},
 	{
 		id: 4,
 		category: "lagos",
-		title: "Lago Argentino",
+		title: "Argentino",
 		location: "El Calafate",
 		description:
-			"El Lago Argentino​ es el mayor de los grandes lagos patagónicos de la Argentina; y el más austral de su territorio continental, por detrás del fueguino lago Fagnano en la parte insular. El Lago Argentino se encuentra ubicado en el sector sudoeste de la provincia de Santa Cruz.",
+			"Es el mayor de los grandes lagos patagónicos de la Argentina; y el más austral de su territorio continental, por detrás del fueguino lago Fagnano en la parte insular. El Lago Argentino se encuentra ubicado en el sector sudoeste de la provincia de Santa Cruz.",
 		img: "https://upload.wikimedia.org/wikipedia/commons/a/af/Lago_Argentino_-_panoramio.jpg",
 	},
 	{
@@ -59,17 +59,16 @@ export const CATEGORIES = [
 	{
 		id: 1,
 		title: "Playas",
-		img: "https://www.svgrepo.com/show/477001/beach.svg",
+		img: "https://cdn.pixabay.com/photo/2020/09/16/18/39/icon-5577198_960_720.png",
 	},
 	{
 		id: 2,
 		title: "Lagos",
-		img: "https://www.svgrepo.com/show/42082/lake.svg",
-		img2: "https://www.svgrepo.com/show/429861/lake-land-nature.svg",
+		img: "https://cdn-icons-png.flaticon.com/512/190/190900.png",
 	},
 	{
 		id: 3,
 		title: "Montañas",
-		img: "https://www.svgrepo.com/show/476991/mountain-1.svg",
+		img: "https://cdn-icons-png.flaticon.com/512/1090/1090663.png",
 	},
 ];
