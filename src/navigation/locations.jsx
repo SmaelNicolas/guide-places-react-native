@@ -5,7 +5,21 @@ const Stack = createNativeStackNavigator();
 
 export const GuidePlacesNavigator = () => {
 	return (
-		<Stack.Navigator initialRouteName="Categories">
+		<Stack.Navigator
+			initialRouteName="Categories"
+			screenOptions={{
+				headerTitleAlign: "center",
+				headerStyle: {
+					backgroundColor: "#d8f1f5",
+				},
+				headerTintColor: "#392496",
+				navigationBarColor: "transparent",
+				headerTitleStyle: {
+					fontFamily: "MM-700",
+					fontSize: 20,
+					color: "#6F69B7",
+				},
+			}}>
 			<Stack.Screen
 				name="Categories"
 				component={Categories}
