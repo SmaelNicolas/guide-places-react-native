@@ -29,19 +29,19 @@ export const PlaceDetail = ({ route }) => {
 			<View style={styles.containerWeather}>
 				<Text style={styles.weatherTitle}>Clima</Text>
 				<Text style={styles.descriptionWeather}>
-					Sensación Térmica : {weather.main.feels_like}{" "}
+					🌡 Sensación Térmica : {weather.main.feels_like}{" "}
 				</Text>
 				<Text style={styles.descriptionWeather}>
-					Temperatura : {weather.main.temp}{" "}
+					🌡 Temperatura : {weather.main.temp}{" "}
 				</Text>
 				<Text style={styles.descriptionWeather}>
-					Temperatura Máxima : {weather.main.temp_max}{" "}
+					🌡 Temperatura Máxima : {weather.main.temp_max}{" "}
 				</Text>
 				<Text style={styles.descriptionWeather}>
-					Temperatura Mínima : {weather.main.temp_min}{" "}
+					🌡 Temperatura Mínima : {weather.main.temp_min}{" "}
 				</Text>
 				<Text style={styles.descriptionWeather}>
-					Cielo : {weather.weather[0].description}{" "}
+					☁ Cielo : {weather.weather[0].description}{" "}
 				</Text>
 			</View>
 		);
