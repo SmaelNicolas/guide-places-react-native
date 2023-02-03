@@ -4,7 +4,7 @@ import { ActivityIndicator, View } from "react-native";
 export const ActivityIndicatorCustom = () => {
 	return (
 		<View>
-			<ActivityIndicator size="large" />
+			<ActivityIndicator size="large" color="#999999" />
 		</View>
 	);
 };
