@@ -1,7 +1,7 @@
 export const PLACES = [
 	{
 		id: 1,
-		category: "playa",
+		category: "playas",
 		title: "Mar del Plata",
 		location: "Provincia de Buenos Aires",
 		description:
@@ -10,7 +10,7 @@ export const PLACES = [
 	},
 	{
 		id: 2,
-		category: "playa",
+		category: "playas",
 		title: "Monte Hermoso",
 		location: "Provincia de Buenos Aires",
 		description:
@@ -19,7 +19,7 @@ export const PLACES = [
 	},
 	{
 		id: 3,
-		category: "lago",
+		category: "lagos",
 		title: "Lago Nahuel Huapi",
 		location: "San Carlos de Bariloche, Villa La Angostura",
 		description:
@@ -28,7 +28,7 @@ export const PLACES = [
 	},
 	{
 		id: 4,
-		category: "lago",
+		category: "lagos",
 		title: "Lago Argentino",
 		location: "El Calafate",
 		description:
@@ -37,7 +37,7 @@ export const PLACES = [
 	},
 	{
 		id: 5,
-		category: "montaña",
+		category: "montañas",
 		title: "Aconcagua",
 		location: "Mendoza",
 		description:
@@ -46,11 +46,30 @@ export const PLACES = [
 	},
 	{
 		id: 6,
-		category: "montaña",
+		category: "montañas",
 		title: "Cerro Tronador",
 		location: " Argentina , Chile",
 		description:
 			"Es un volcán geológicamente inactivo; su origen está asociado al proceso de formación de los Andes en el periodo Pleistoceno, comenzando hace aproximadamente 1.3 millones de años y terminando hace 340000 años.Este cerro con el correr de los años ha sufrido una importante acción erosiva producto de los glaciares que se sitúan sobre él, por esto ha escarpado y reducido sus laderas hasta casi perder la forma de un volcán típico.",
 		img: "https://i0.wp.com/mochilaexpres.com/wp-content/uploads/2021/04/20191121_134146-scaled.jpg?fit=768%2C373&ssl=1",
+	},
+];
+
+export const CATEGORIES = [
+	{
+		id: 1,
+		title: "Playas",
+		img: "https://www.svgrepo.com/show/477001/beach.svg",
+	},
+	{
+		id: 2,
+		title: "Lagos",
+		img: "https://www.svgrepo.com/show/42082/lake.svg",
+		img2: "https://www.svgrepo.com/show/429861/lake-land-nature.svg",
+	},
+	{
+		id: 3,
+		title: "Montañas",
+		img: "https://www.svgrepo.com/show/476991/mountain-1.svg",
 	},
 ];
